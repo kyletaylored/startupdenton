@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Startup Denton
+email: info@startupdenton.com
+description: > # this means to ignore newlines until "baseurl:"
+  Denton is the best place in Texas to launch your company or startup.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.startupdenton.com" # the base hostname & protocol for your site
+twitter_username: dentonecondev
+facebook_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+google_analytics: "UA-51689839-4"
