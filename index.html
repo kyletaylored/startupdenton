@@ -16,14 +16,14 @@ layout: default
 
 		<header class="top-bar"></header>
 
-		<div class="grid__item purple">
+		<div class="grid__item orange">
 			<h1 class="title title--preview">
 				{{ site.title }}
 			</h1>
 		</div>
 
 		{% for post in site.posts %}
-		{% assign random = post.time | date: "%s%N" | modulo: site.data.classes.size %}
+		{% assign random = post.title.size | modulo: site.data.classes.size %}
 		<a class="grid__item {{ site.data.classes[random].name }}" href="{{ "#" | prepend: site.baseurl }}">
 			<h2 class="title title--preview">
 				{{ post.title }}
@@ -31,7 +31,7 @@ layout: default
 			<div class="loader"></div>
 			<div class="meta meta--preview">
 				<span class="meta__date">{{ post.category }}</span>
-				<span class="meta__reading-time"><i class="fa fa-calendar-o"></i> 18 Feb</span>
+				<span class="meta__reading-time"><i class="fa fa-calendar-o"></i> {{ random }}</span>
 			</div>
 		</a>
 		{% endfor %}
