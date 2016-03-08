@@ -3,5 +3,8 @@ layout: post
 title: "Square205"
 date: 2016-02-29T00:28:45-06:00
 category: creative
+link: http://square205.com
+logo: square205.png
+image: square205.jpg
 ---
-
+Boutique agency. Big Ideas. That’s us. We don’t have a dozen or so members on a team working on a dozen or so different aspects of your project. Instead, we have a small team and each of us makes it our business to see your project through from brainstorming to launch. We may be small, but our clients can count on us big.

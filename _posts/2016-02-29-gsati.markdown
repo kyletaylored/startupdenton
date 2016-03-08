@@ -3,5 +3,8 @@ layout: post
 title: "GSATi"
 date: 2016-02-29T00:28:35-06:00
 category: IT services
+link: http://www.gsati.com
+logo: gsati.png
+image: gsati.jpg
 ---
-
+GSATi prides itself on knowing that successful organizations develop strategies to drive organizational excellence around collaborative Business and IT environments, and understanding how to execute strategies to maximize corporate value. We discovered most of the problems were caused by a disconnect between Vision and Implementation.

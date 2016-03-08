@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<h1><a href="{{ site.baseurl }}"><strong>{{ site.title }}</strong></a></h1>
+			<nav>
+				<ul>
+					<li><a href="#footer" class="icon fa-info-circle">About</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
 
-    <div class="container">
-        {{ content }}
-    </div>
+	
+	<div id="main">
+		{{ content }}
+	</div>
 
-    {% include footer.html %}
-    {% include scripts.html %}
+	{% include footer.html %}
+	{% include scripts.html %}
 
-  </body>
+</body>
 
 </html>

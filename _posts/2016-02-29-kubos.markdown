@@ -3,5 +3,8 @@ layout: post
 title: "Kubos"
 date: 2016-02-29T00:27:41-06:00
 category: space
+link: http://www.kubos.co
+logo: kubos.png
+image: kubos.jpg
 ---
-
+KubOS, our light weight flight RTOS and framework, brings unparalleled productivity and functionality to the flight critical MCUs of satellites. We offer companies deploying KubOS integration and operations support for their missions, greatly reducing the risk of software failure while in orbit with our SLA Contracts.

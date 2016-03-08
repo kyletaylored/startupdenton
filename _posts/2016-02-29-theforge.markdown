@@ -3,5 +3,10 @@ layout: post
 title: "The Forge"
 date: 2016-02-29T00:27:20-06:00
 category: makerspace
+link: http://www.dentonpl.com/forge/
+logo: theforge.png
+image: theforge.jpg
 ---
+The Forge is a technology makerspace inside the North Branch Library. We're open to the public.
 
+We've got the tools and the space, you bring the desire to learn and make. We'll point you towards people, tutorials, books, and information that'll help you get where you want to go.
