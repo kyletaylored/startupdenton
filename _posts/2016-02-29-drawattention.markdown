@@ -7,4 +7,6 @@ link: http://www.drawattention.co
 logo: drawattention.png
 image: drawattention.jpg
 ---
-DrawAttention started when in November of 2014, Kyle made a whiteboard sticker for his laptop and posted a picture of it on Facebook. It exploded with likes, comments, and requests to buy one. That's it, that's all it took. He spent $13 on a domain name, whipped up a logo, and in 10 hours - built a site with e-commerce, analytics, social media, and email marketing.
+DrawAttention is a lean startup that makes whiteboards and blackboards for laptops. The company has no storefront, no home office, and no investment capital, yet it sells its products internationally. It took 10 hours to build an e-commerce site complete with analytics, social media, and email marketing. Their investment capital was $13 for a domain name.
+
+Co-founders Eric Swayne and Kyle Taylor want you to know that it is ridiculously easy to start a company, and enjoy contributing their time and experience back to the Denton community they call home.
