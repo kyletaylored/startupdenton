@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ready Rosie"
-date: 2016-02-29T00:27:46-06:00
+date: 2016-02-28T00:07:00-06:00
 category: edtech
 link: http://readyrosie.com
 logo: readyrosie.png

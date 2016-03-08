@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "All-In Learning"
-date: 2016-02-29T00:28:01-06:00
+date: 2016-02-28T00:17:00-06:00
 category: edtech
 link: http://www.allinlearning.com/
 logo: allinlearning.png

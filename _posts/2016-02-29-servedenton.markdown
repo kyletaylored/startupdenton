@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Serve Denton"
-date: 2016-02-29T00:27:06-06:00
+date: 2016-02-28T00:10:00-06:00
 category: non-profit
 link: http://www.servedenton.org
 logo: servedenton.png

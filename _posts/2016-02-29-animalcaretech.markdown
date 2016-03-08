@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Animal Care Technologies"
-date: 2016-02-29T00:28:22-06:00
+date: 2016-02-28T00:16:00-06:00
 category: vet tech
 link: http://home.4act.com/
 logo: animalcare.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swash Labs"
-date: 2016-02-29T00:28:41-06:00
+date: 2016-02-28T00:05:00-06:00
 category: advertising
 link: http://swashlabs.com
 logo: swashlabs.png

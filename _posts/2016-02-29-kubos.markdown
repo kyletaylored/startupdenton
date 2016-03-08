@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kubos"
-date: 2016-02-29T00:27:41-06:00
+date: 2016-02-28T00:01:00-06:00
 category: space
 link: http://www.kubos.co
 logo: kubos.png

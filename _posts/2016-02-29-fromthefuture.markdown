@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From The Future"
-date: 2016-02-29T00:28:30-06:00
+date: 2016-02-28T00:04:00-06:00
 category: video games
 link: http://www.fromthefuturegames.com
 logo: fromthefuture.png

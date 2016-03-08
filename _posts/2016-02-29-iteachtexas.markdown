@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "iTeach Texas"
-date: 2016-02-29T00:28:14-06:00
+date: 2016-02-28T00:15:00-06:00
 category: edtech
 link: http://iteach.net
 logo: iteach.png

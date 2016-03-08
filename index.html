@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
 <article class="thumb">
 <a href="{{ "/images/fulls/" | append: post.image | prepend: site.baseurl }}" class="image"><img src="{{ "/images/logos/" | append: post.logo | prepend: site.baseurl }}" alt="{{ post.title }}" /></a>
 	<h2>{{ post.title }}</h2>

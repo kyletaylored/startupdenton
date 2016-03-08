@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Premium Beat"
-date: 2016-02-29T00:27:53-06:00
+date: 2016-02-28T00:11:00-06:00
 category: music
 link: http://www.premiumbeat.com
 logo: premiumbeat.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Open Denton"
-date: 2016-02-29T00:26:59-06:00
+date: 2016-02-28T00:02:00-06:00
 category: open data
 link: https://www.opendenton.com/
 logo: opendenton.png

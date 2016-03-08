@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Techmill Denton
-date: 2016-02-28T23:49:27-06:00
+date: 2016-02-28T00:00:00-06:00
 category: non-profit
 link: https://twitter.com/techmilldenton
 logo: techmill.png

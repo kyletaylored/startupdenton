@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Square205"
-date: 2016-02-29T00:28:45-06:00
+date: 2016-02-28T00:08:00-06:00
 category: creative
 link: http://square205.com
 logo: square205.png
