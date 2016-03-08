@@ -8,3 +8,8 @@ logo: stoke.png
 image: stoke.jpg
 ---
 
+A coworking space and entrepreneur center for innovators, startups, and dreamers in the heart of Denton, Texas.
+
+In partnership with the Dallas Entrpreneur Center and backed by the City of Denton, local entrepreneurs and freelancers can join the collaborative space for $150/month, or $250/month for a dedicated desk. For those looking for a more private option, offices are available for $550/month.
+
+Denton is already bursting at the seams with startup and tech meetups, and Stoke aims to help bring community initiatives together under one roof to build a truly collaborative technology hub.
