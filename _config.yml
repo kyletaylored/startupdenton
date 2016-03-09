@@ -12,8 +12,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Denton is the best place in Texas to launch your company or startup.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.startupdenton.com" # the base hostname & protocol for your site
-twitter_username: dentonecondev
-facebook_username:  jekyll
+keywords: startup, Denton, tech, startups, technology, texas
+twitter_username: techmilldenton
+facebook_username:  techmilldenton
 
 # Build settings
 markdown: kramdown

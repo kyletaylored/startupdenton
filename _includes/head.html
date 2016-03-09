@@ -4,16 +4,46 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<!-- Jekyll Metadata -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">	
+    <!-- BASIC INFO -->
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
 
-	<title>Startup Denton</title>
-	<meta name="keywords" content="Startup, Denton, tech, startups, technology, texas">
 	<meta name="author" content="TechMill Denton">
-	
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:image" content="{{ "/images/startupdenton.jpg" | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="twitter:creator" content="{{ site.twitter_username }}">
+    <meta property="twitter:site" content="{{ site.twitter_username }}">
+
+    <!-- METADATA / OG / TWITTER -->
+    {% if page.desc %}
+    <meta name="description" content="{{ page.desc }}" >
+    <meta property="og:description" content="{{ page.desc }}">
+    <meta name="twitter:description" content="{{ page.desc }}">
+    {% else %}
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
+    {% endif %}
+
+    <!-- KEYWORDS -->
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}" >
+    {% else %}
+    <meta name="keywords" content="{{ site.keywords }}">
+    {% endif %}
+
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{ site.twitter_username }}">
+    <meta name="twitter:creator" content="{{ site.twitter_username }}">
+    <meta name="twitter:image" content="{{ "/images/startupdenton.jpg" | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- FAVICONS -->
 	<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
